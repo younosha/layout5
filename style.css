@@ -1,0 +1,667 @@
+.navBarWrapper {
+  width: 100%;
+}
+.navBarContent {
+  margin: auto;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.appleAndGoogle {
+  display: flex;
+  align-items: center;
+}
+.appleAndGoogle2 {
+  display: flex;
+  align-items: center;
+  margin-left: -5px;
+}
+.apple {
+  margin-left: 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.apple2 {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.samsung {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.iphoneX {
+  width: 100%;
+}
+.btn {
+  background: transparent;
+  border: navajowhite;
+  margin-left: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+  cursor: pointer;
+}
+.logoAndLinks {
+  display: flex;
+  align-items: center;
+}
+.promoWrapper {
+  width: 100%;
+  background-image: url(./img/Background.svg);
+  background-size: cover;
+}
+.promoContent {
+  margin: auto;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.text {
+  font-size: 72px;
+  font-family: "Manrope", sans-serif;
+  max-width: 740px;
+}
+.btnGetStarted {
+  background: #8c30f5;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  font-family: "Manrope", sans-serif;
+  color: #ffffff;
+  padding-left: 41px;
+  padding-right: 41px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  cursor: pointer;
+}
+.logosWrarrep {
+  width: 100%;
+}
+.logosContent {
+  margin: auto;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.line {
+  background: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+  width: 100%;
+  height: 1px;
+}
+.logosBlock {
+  padding-top: 57px;
+  padding-bottom: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.icon {
+  margin-left: 50px;
+}
+.tailorWrapper {
+  width: 100%;
+}
+.tailorContent {
+  margin: auto;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tailorTitle {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "Manrope", sans-serif;
+}
+.tailorDescription {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  color: #18191f;
+}
+.iconsBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.iconsBlockFirstLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 48px;
+}
+.iconsBlockSecondLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 65px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+.cardTitle {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+}
+.cardDescription {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Manrope", sans-serif;
+  line-height: 26px;
+  color: #18191f;
+}
+.storiesWrapper {
+  width: 100%;
+  background-color: #d5fafc;
+  margin-top: 50px;
+  padding-bottom: 80px;
+}
+.storiesContent {
+  margin: auto;
+  max-width: 1100px;
+  padding-top: 65px;
+  display: flex;
+  justify-content: center;
+}
+.storiesTitle {
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "Manrope", sans-serif;
+  margin-left: 95px;
+  margin-top: -115px;
+  max-width: 445px;
+}
+.storiesAfterTitle {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Manrope", sans-serif;
+  margin-left: 95px;
+  margin-top: -30px;
+}
+.hubCard {
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.hubCard1 {
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.hubCardText {
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+.hubCardText2 {
+  margin-top: 0px;
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Manrope", sans-serif;
+}
+.hubCardText3 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+  margin-left: 20px;
+}
+.hubCardText4 {
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Manrope", sans-serif;
+  margin-left: 20px;
+  color: #969bab;
+}
+.rightPart {
+  padding-top: 100px;
+}
+.yearsBlockWrapper {
+  width: 100%;
+}
+.yearsBlockContent {
+  margin: auto;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  align-items: center;
+}
+.yearsBlockTitle {
+  font-weight: 800;
+  font-size: 48px;
+  font-family: "Manrope", sans-serif;
+  max-width: 540px;
+}
+.yearsBlockTitle2 {
+  font-weight: normal;
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+}
+.firstColumnItem {
+  display: flex;
+  flex-direction: column;
+}
+.secondColumnItem {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.columnItem {
+  display: flex;
+  align-items: center;
+}
+.numberText {
+  font-weight: 800;
+  font-size: 28px;
+  font-family: "Manrope", sans-serif;
+}
+.descriptionText {
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: -30px;
+}
+.textBlock {
+  margin-left: 15px;
+  font-family: "Manrope", sans-serif;
+  margin-top: -20px;
+}
+.columsBlock {
+  display: flex;
+}
+.headLineWrapper {
+  width: 100%;
+}
+.headLineContent {
+  margin: auto;
+  max-width: 1100px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headLineBlockText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+.btnRight {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  color: #8c30f5;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Manrope", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+.headLineBlockTitle {
+  font-weight: 800;
+  font-size: 40px;
+  font-family: "Manrope", sans-serif;
+}
+.right-arrow {
+  margin-left: 10px;
+}
+.headLineBlockTitle2 {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: normal;
+  font-family: "Manrope", sans-serif;
+}
+.fashionTrandsWrapper {
+  width: 100%;
+  padding-bottom: 60px;
+}
+.fashionTrandsContent {
+  max-width: 1100px;
+  margin: auto;
+  padding-top: 60px;
+}
+.fashionTrandsTextBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fashionTrandsTitle {
+  max-width: 540px;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Manrope", sans-serif;
+}
+.fashionTrandsTitle2 {
+  max-width: 540px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Manrope", sans-serif;
+}
+.fashion {
+  width: 100%;
+}
+.fashion2 {
+  max-width: 540px;
+}
+.manageBlockWrapper {
+  width: 100%;
+  background-color: #2ec5ce;
+}
+.manageBlockContent {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.manageBlockText {
+  margin-top: 65px;
+  margin-bottom: 50px;
+}
+.manageBlockTitle {
+  font-weight: 800;
+  font-size: 48px;
+  font-family: "Manrope", sans-serif;
+  max-width: 540px;
+}
+.manageBlockTitle2 {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  max-width: 540px;
+}
+.phone2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.phone1 {
+  margin-left: 50px;
+}
+.phoneSVG {
+  width: 100%;
+}
+.footerWrapper {
+  width: 100%;
+  background-color: #0b0d17;
+}
+.footerContent {
+  margin: auto;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.footerText {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.footerText1 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.promoText {
+  font-size: 14px;
+  font-family: "Manrope", sans-serif;
+  color: #d9dbe1;
+  margin-top: 40px;
+}
+.oTeaxtFooter {
+  color: white;
+  text-decoration: none;
+}
+.oTeaxtFooter1 {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.oTeaxtFooter12 {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.btnsFooter {
+  display: flex;
+  flex-direction: column;
+  margin-left: -5px;
+}
+@media screen and (max-width: 990px) {
+  .logosBlock {
+    flex-direction: column;
+  }
+  .icon {
+    margin-left: 0px;
+  }
+  .logoBlock1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+  }
+  .logoBlock2 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+  }
+  .appleAndGoogle {
+    flex-direction: column;
+  }
+  .storiesContent {
+    flex-direction: column;
+  }
+  .rightPart {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+  }
+  .headLineContent {
+    flex-direction: column;
+    text-align: center;
+  }
+  .headLineBlockTitle {
+    text-align: center;
+  }
+  .headLineBlockText {
+    margin-left: 0px;
+    max-width: 400px;
+  }
+  .btnRight {
+    margin: auto;
+  }
+  .fashionTrandsTextBlock {
+    flex-direction: column;
+    text-align: center;
+  }
+  .fashionTrandsContent {
+    padding-top: 0px;
+  }
+  .manageBlockTitle {
+    font-size: 38px;
+  }
+  .manageBlockTitle2 {
+    font-size: 15px;
+  }
+  .manageBlockText {
+    margin-top: 30px;
+  }
+  .hubCard1 {
+    margin-left: 90px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .mainTextBlock {
+    padding-left: 20px;
+  }
+  .apple {
+    margin-left: 0px;
+  }
+  .navBarContent {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .storiesContent {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hubCard {
+    margin-left: 20px;
+  }
+  .yearsBlockContent {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .headLineContent {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .manageBlockContent {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footerContent {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .fashionTrandsTextBlock {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hubCard {
+    margin-left: 90px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .logoAndLinks {
+    flex-direction: column;
+  }
+  .navBarContent {
+    justify-content: space-around;
+  }
+  .iconsBlockFirstLine {
+    flex-direction: column;
+  }
+  .iconsBlockSecondLine {
+    flex-direction: column;
+  }
+  .card {
+    margin-top: 20px;
+  }
+  .yearsBlockContent {
+    flex-direction: column;
+  }
+  .columsBlock {
+    margin-left: -130px;
+    margin-top: 50px;
+  }
+  .yearsBlockTitle {
+    text-align: center;
+  }
+  .yearsBlockTitle2 {
+    text-align: center;
+  }
+  .columsBlock {
+    margin: auto;
+    margin-top: 30px;
+  }
+  .mainTextBlock {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .text {
+    font-size: 60px;
+  }
+  .iconsBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .card {
+    width: 70%;
+  }
+  .iconsBlockSecondLine {
+    margin-top: 0px;
+    justify-content: space-around;
+  }
+  .iconsBlockFirstLine {
+    margin-top: 0px;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 550px) {
+  .text {
+    font-size: 40px;
+  }
+  .fashion2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .phoneSVG {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footerText1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .oTeaxtFooter1 {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .storiesTitle {
+font-size: 30px;
+  }
+  .oTeaxtFooter1 {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
